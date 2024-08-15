@@ -1,0 +1,184 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.miama-font {
+    font-family: "Miama", sans-serif;
+    font-size: 120px;   
+    font-weight: 400;                                    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* colors */
+
+#bg-orange {
+    background-color: #E6533C;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    padding: 2px 12px;
+    border-radius: 20px;
+}
+.bg-body {
+    margin-top: 30px;
+    background-color: #000;
+}
+#bg-white {
+    color: #fff;
+}
+
+.bg-black {
+    
+    background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
+    
+    
+}
+/* navbar start */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    /* height: 400px; */
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.nav-items {
+    display: flex;
+    gap: 3rem;
+    padding-right: 10px;
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+
+}
+
+.list-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.1);
+    
+}
+
+.nav-title {
+    color: #E6533C;
+    font-weight:800;
+    font-size: 2.2rem;
+    font-style: italic;
+}
+
+/* navbar end */
+
+
+.banner-section {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+   
+}
+
+.banner-content {
+    width: 50%;
+    padding-top: 3.7rem;
+    text-align: start;
+    /* border: 2px solid red; */
+}
+
+.banner-title {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 120%
+}
+
+.banner-description {
+    padding-top: 2rem;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-btn {
+    padding-top: 2rem;
+    /* max-width: 600px;
+    height: 100px; */
+}
+
+.btn-one {
+    padding: 14px 38px;
+    color: #fff;
+    background-color: #E6533C;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.btn-two {
+    margin-left: 10px;
+    padding: 14px 38px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.banner-image {
+    margin-left: 110px;
+    padding-left: 170px;
+    width: 50%;
+    
+    /* width: 100%; */
+    
+    /* margin-left: 40px; */
+    /* padding-left: 300px; */
+    /* justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto; */
+    /* border: 2px solid red; */
+}
+
+.banner-image img {
+    /* width: 100%; */
+    max-width: 330px;
+    max-height: 550px;
+}
+
+/* Habits section start */
+
+.habit-section {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.habit-content {
+    margin-top: 44px;
+    text-align: center;
+}
+
+.habit-title {
+    color:#fff;
+}
+
+.habit-description {
+    color: #fff;
+}
+
+.card {
+    display: flex;
+}
+
+/* Habits section end */
