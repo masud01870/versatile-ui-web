@@ -197,5 +197,191 @@
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
 }
-
 /* Habits section end */
+
+/* Run section start */
+
+.another-card {
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 16px;
+}
+
+.run-section {
+    margin-left: 44px;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    gap: 196px;
+}
+
+.run-content {
+    padding-top: 14px;
+    width: 500px;
+    height: 300px;
+    color: #fff;
+    
+    align-items: center;
+    /* border: 2px solid red; */
+    
+}
+
+.run-title {
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.run-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 28px;
+}
+
+.run-btn {
+    padding: 10px 48px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background-color: #E6533C;
+    color: #fff;
+}
+
+.run-image {
+    width: 460px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.run-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    object-position: 67% 32%;
+    transform: scale(0.9);
+    border-radius: 18px;
+}
+
+/* Run section end */
+
+/* Our Team Section */
+
+.our-team-section {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.our-team-title {
+    margin-bottom: 14px;
+}
+
+.our-team-description {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+
+.our-team-section img {
+    width: 100%;
+    height: 280px;
+    border-radius: 16px;
+}
+
+.row-section {
+    padding: 4px 18px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.row-1, .row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem 0;
+    gap: 18px;
+}
+
+.team-card{
+    position: relative;
+}
+
+.team {
+    text-align: start;
+    position: absolute;
+    top: 80%;
+    left: 6%;
+}
+
+/* Our Team Section End */
+
+/* Footer Section Start */
+
+.footer-section {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.fit-title {
+    font-size: 3.8rem;
+    font-weight: 800;
+    font-style: italic;
+    color: #E6533C;
+}
+
+.fit-description {
+    padding-top: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-content {
+    padding-top: 30px;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.footer-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-description p {
+    padding-bottom: 14px;
+}
+
+.footer-end {
+    display: flex;
+    gap: 216px;
+    padding-bottom: 34px;
+    
+}
+
+.horizontal {
+    max-width: 1170px;
+    margin: 0 auto;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.rights {
+    text-align: center;
+    padding: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Footer Section end */
